@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+.promocao{
+    height: 1000px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent 40%, #fff 95%), url(assets/img/teste.jpg);
+    background-size: cover;
+}
+
+.modalwindow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightslategray;
+    height: 400px;
+    width: 1000px;
+    max-width: 1000px;
+    border-radius: 20px;
+    position: absolute;
+    top: 920px;
+    left: 450px;
+    z-index: 1;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.conteudo {
+    display: block;
+    padding: 0 0 40px;
+}
+
+#nossosPro{
+    text-align: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 300px 200px 200px 200px;
+}
+
+.produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px black;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border-top: blur(4px);
+}
+
+.descricao {
+    bottom: 10px;
+}
+
+.produto img{
+    width: 200px;
+}
+
+.produtos button{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
